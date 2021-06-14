@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>carrot Game</title>
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <section>
+            <header class="header">
+                <button class="playButton">▶</button>
+                <button class="stopButton off">■</button>
+                <div class="timer"></div>
+                <button class="counter">0</button>
+            </header>
+            <div class="modal">
+                <p class="message success">
+                    You are won 🎉
+                </p>
+                <p class="message fail">
+                    You lost 😞
+                </p>
+                <button class="replay"><i class="fas fa-undo-alt"></i></button>
+            </div>
+            <div class="modal replayModal">
+                <p class="message">
+                    Replay?
+                </p>
+                <button class="replayButton">
+                    <i class="fas fa-undo-alt"></i>
+                </button>
+            </div>
+
+            <div class="itemFloor">
+                <div class="floor"></div>
+                <img
+                    src="/carrot/img/background.png"
+                    alt="background"
+                    class="background"
+                />
+            </div>
+        </section>
+    </body>
+</html>
